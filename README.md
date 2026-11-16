@@ -29,3 +29,7 @@ Update contact and project links only when needed. Prefer clear, durable descrip
 
 ## Connected lifecycle diagram (proposed)
 The case uses four existing semantic SVG icons inside a responsive connected lifecycle diagram. On desktop the cycle forms a loop around a concise center statement; on mobile it becomes a two-column clockwise flow. The labels and full text remain native HTML, and the arrow paths are decorative for assistive technology. The footer/caption explicitly states that not all ideas should persist or cycle forever. No image export, graphic dependency, new JavaScript library or recurring design process is required. If the visual becomes less readable than the original text, simplify the diagram.
+
+
+## Director-level Revenue Operations positioning
+The landing page now leads with revenue operations leadership intent and adds a reference-only GTM operating-model section. This is market positioning, not a claim of forecasting ownership, people-management scope, quota-setting history, or verified business impact. Do not replace approved experience text with inferred results. New evidence should flow through the existing career publication gates.
