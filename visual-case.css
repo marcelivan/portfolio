@@ -38,3 +38,46 @@
 .case-icon-heading{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
 .case-icon-heading .case-icon-frame{width:40px;height:40px}
 .case-icon-heading .case-icon{width:23px;height:23px}
+
+/* Connected capability lifecycle. Native HTML carries all accessible text; arrows are decoration. */
+.capability-diagram{position:relative;max-width:900px;margin:32px auto 0;min-height:660px}
+.capability-cycle{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-template-rows:repeat(3,210px);gap:15px;list-style:none;padding:0;margin:0;position:relative;z-index:2}
+.capability-cycle>li{display:flex;align-items:center;justify-content:center;min-width:0}
+.capability-cycle>li:nth-child(1){grid-column:2;grid-row:1}
+.capability-cycle>li:nth-child(2){grid-column:3;grid-row:2}
+.capability-cycle>li:nth-child(3){grid-column:2;grid-row:3}
+.capability-cycle>li:nth-child(4){grid-column:1;grid-row:2}
+.capability-cycle .case-step{min-height:178px;width:100%;max-width:254px;box-shadow:0 6px 20px rgba(18,45,61,.07);border-radius:14px;padding:18px 21px}
+.capability-cycle .case-step h3{font-size:22px}
+.capability-cycle .case-step p{font-size:13px;line-height:1.5}
+.capability-cycle .case-step>.case-icon-frame{margin-top:7px;width:40px;height:40px}
+.cycle-arrows{position:absolute;inset:0;width:100%;height:100%;z-index:1;pointer-events:none}
+.cycle-arrows-mobile{display:none}
+.cycle-center{position:absolute;z-index:2;left:33%;top:33%;width:34%;height:34%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:10px;padding:22px;color:var(--ink)}
+.cycle-center strong{font-size:clamp(17px,2.3vw,25px);line-height:1.35;letter-spacing:-.035em}
+.cycle-center em{font-family:inherit;font-style:normal;font-weight:750}
+.cycle-center span{font-size:12px;color:var(--muted)}
+@media(max-width:700px){
+.capability-diagram{min-height:0;margin:20px auto 0}
+.capability-cycle{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(2,minmax(180px,auto));gap:36px 30px}
+.capability-cycle>li:nth-child(1){grid-column:1;grid-row:1}
+.capability-cycle>li:nth-child(2){grid-column:2;grid-row:1}
+.capability-cycle>li:nth-child(3){grid-column:2;grid-row:2}
+.capability-cycle>li:nth-child(4){grid-column:1;grid-row:2}
+.capability-cycle .case-step{max-width:none;min-height:190px;padding:14px 15px}
+.capability-cycle .case-step h3{font-size:18px;margin:10px 0 7px}
+.capability-cycle .case-step p{font-size:13px;line-height:1.4}
+.capability-cycle .case-step-number{font-size:11px}
+.capability-cycle .case-step>.case-icon-frame{margin-top:8px;width:34px;height:34px}
+.capability-cycle .case-icon{width:20px;height:20px}
+.cycle-arrows-desktop{display:none}
+.cycle-arrows-mobile{display:block;bottom:auto;height:calc(100% - 85px)}
+.cycle-center{position:static;max-width:350px;margin:24px auto 0;min-height:76px;width:auto;padding:10px}
+.cycle-center strong{font-size:19px}
+}
+@media(max-width:370px){
+.capability-cycle{column-gap:22px;row-gap:28px}
+.capability-cycle .case-step{padding:12px;min-height:205px}
+.capability-cycle .case-step h3{font-size:17px}
+.capability-cycle .case-step p{font-size:12.5px}
+}

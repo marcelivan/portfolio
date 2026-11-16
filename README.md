@@ -25,3 +25,7 @@ Update contact and project links only when needed. Prefer clear, durable descrip
 - Figures such as 7 hours avoided and 2.5 hours maintenance are **illustrative scenario inputs, not historical benefits, organizational ROI or observed savings**. They must not be reused as accomplishment metrics.
 - No screenshot exports, employer records, private information, external analytics, new build pipeline or recurring reporting were added.
 - Before publishing changes to the public portfolio, review factual claims, local test provenance, accessibility, mobile rendering and disclosure boundaries. The underlying private personal evidence remains in its authorized location.
+
+
+## Connected lifecycle diagram (proposed)
+The case uses four existing semantic SVG icons inside a responsive connected lifecycle diagram. On desktop the cycle forms a loop around a concise center statement; on mobile it becomes a two-column clockwise flow. The labels and full text remain native HTML, and the arrow paths are decorative for assistive technology. The footer/caption explicitly states that not all ideas should persist or cycle forever. No image export, graphic dependency, new JavaScript library or recurring design process is required. If the visual becomes less readable than the original text, simplify the diagram.

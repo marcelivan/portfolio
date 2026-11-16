@@ -21,12 +21,28 @@
 <section class="section section-alt" aria-labelledby="problem-title"><div class="wrap">
 <p class="kicker">01 / STRUCTURAL PROBLEM</p><h2 id="problem-title">Automation can create <em>more work.</em></h2>
 <p class="case-intro">Generated documents help only if they remain findable, accurate and recoverable. An automation that silently overwrites edits or repeats stale information can increase dependence on its creator.</p>
-<div class="case-steps" aria-label="Life-cycle design">
-<div class="case-step"><span class="case-step-number">01</span><span class="case-icon-frame"><svg class="case-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4M17 3v4M3 10h18"/><path d="M12 14v4M10 16h4"/></svg></span><h3>Emerge</h3><p>A meeting creates a bounded preparation need.</p></div>
-<div class="case-step"><span class="case-step-number">02</span><span class="case-icon-frame"><svg class="case-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3h7l5 5v12a1 1 0 0 1-1 1H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/><path d="M14 3v6h5M9 13h6M9 17h5"/></svg></span><h3>Serve</h3><p>Generate a concise brief and accessible daily entry point.</p></div>
-<div class="case-step"><span class="case-step-number">03</span><span class="case-icon-frame"><svg class="case-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 4C9 4 5 9 5 17c7 0 15-4 15-13Z"/><path d="M4 21c2-5 7-10 12-13"/></svg></span><h3>Decay</h3><p>Allow transient ideas to pass; prevent stale material from masquerading as current.</p></div>
-<div class="case-step"><span class="case-step-number">04</span><span class="case-icon-frame"><svg class="case-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7v5h-5M4 17v-5h5"/><path d="M6 9a8 8 0 0 1 13-2l1 5M4 12l1 5a8 8 0 0 0 13-2"/></svg></span><h3>Return</h3><p>Reuse the validated lesson without duplicating a permanent tracking system.</p></div>
-</div></div></section>
+<div class="capability-diagram" aria-label="Capability lifecycle: Emerge, Serve, Decay, Return, then repeat">
+<svg class="cycle-arrows cycle-arrows-desktop" viewBox="0 0 900 660" preserveAspectRatio="none" aria-hidden="true">
+<defs><marker id="cycle-tip-desktop" markerUnits="userSpaceOnUse" markerWidth="22" markerHeight="22" refX="19" refY="11" orient="auto"><path d="M0 0 L22 11 L0 22 Z" fill="#138d8b"/></marker></defs>
+<g fill="none" stroke="#138d8b" stroke-width="5" stroke-linecap="round" marker-end="url(#cycle-tip-desktop)">
+<path d="M575 106 C680 120 755 180 759 236"/>
+<path d="M759 414 C740 505 657 548 573 552"/>
+<path d="M326 552 C228 548 148 491 143 416"/>
+<path d="M143 234 C167 153 251 119 325 106"/>
+</g></svg><svg class="cycle-arrows cycle-arrows-mobile" viewBox="0 0 1000 1000" preserveAspectRatio="none" aria-hidden="true">
+<defs><marker id="cycle-tip-mobile" markerUnits="userSpaceOnUse" markerWidth="36" markerHeight="36" refX="31" refY="18" orient="auto"><path d="M0 0 L36 18 L0 36 Z" fill="#138d8b"/></marker></defs>
+<g fill="none" stroke="#138d8b" stroke-width="12" stroke-linecap="round" marker-end="url(#cycle-tip-mobile)">
+<path d="M430 250 H570"/><path d="M750 430 V570"/><path d="M570 750 H430"/><path d="M250 570 V430"/>
+</g></svg>
+<ol class="capability-cycle">
+<li><div class="case-step case-step-emerge"><span class="case-step-number">01</span><span class="case-icon-frame"><svg class="case-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4M17 3v4M3 10h18"/><path d="M12 14v4M10 16h4"/></svg></span><h3>Emerge</h3><p>A meeting creates a bounded preparation need.</p></div></li>
+<li><div class="case-step case-step-serve"><span class="case-step-number">02</span><span class="case-icon-frame"><svg class="case-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3h7l5 5v12a1 1 0 0 1-1 1H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/><path d="M14 3v6h5M9 13h6M9 17h5"/></svg></span><h3>Serve</h3><p>Generate a concise brief and accessible daily entry point.</p></div></li>
+<li><div class="case-step case-step-decay"><span class="case-step-number">03</span><span class="case-icon-frame"><svg class="case-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 4C9 4 5 9 5 17c7 0 15-4 15-13Z"/><path d="M4 21c2-5 7-10 12-13"/></svg></span><h3>Decay</h3><p>Allow transient ideas to pass; prevent stale material from masquerading as current.</p></div></li>
+<li><div class="case-step case-step-return"><span class="case-step-number">04</span><span class="case-icon-frame"><svg class="case-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7v5h-5M4 17v-5h5"/><path d="M6 9a8 8 0 0 1 13-2l1 5M4 12l1 5a8 8 0 0 0 13-2"/></svg></span><h3>Return</h3><p>Reuse the validated lesson without duplicating a permanent tracking system.</p></div></li>
+</ol>
+<div class="cycle-center"><strong>Capabilities should serve, then <em>simplify.</em></strong><span>Reuse the lesson; not the bureaucracy.</span></div>
+</div>
+<p class="case-caveat">An illustrative lifecycle, not a claim that every system must persist or cycle forever. Temporary ideas may end; obligations and critical controls require governed retirement.</p></div></section>
 <section class="section wrap" id="evidence"><p class="kicker">02 / EVIDENCE MATURITY</p><h2>What the demonstration <em>actually showed.</em></h2>
 <div class="case-evidence-grid">
 <div class="case-proof"><p class="case-status good">LOCALLY TESTED</p><h3>Bounded generation</h3><p>Three selected meeting briefs and a daily index were generated from a deliberately limited calendar fixture. A reading page linked to them.</p></div>
