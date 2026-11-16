@@ -33,3 +33,10 @@ The case uses four existing semantic SVG icons inside a responsive connected lif
 
 ## Director-level Revenue Operations positioning
 The landing page now leads with revenue operations leadership intent and adds a reference-only GTM operating-model section. This is market positioning, not a claim of forecasting ownership, people-management scope, quota-setting history, or verified business impact. Do not replace approved experience text with inferred results. New evidence should flow through the existing career publication gates.
+
+## Reusable executive visual system (November 2026)
+- `visual-system.css` supplies responsive, semantic HTML-based flow panels and story steps, using the site's existing color tokens. No framework, dependency, tracker or image-only content was introduced.
+- Homepage: `Business inputs → Revenue Operations Architecture → Unify / Automate / Govern / Measure`. Each tile is explicitly a reference capability, not a deployed or measured business result.
+- Independent case: `Problem → Architecture → Intended capability → Evidence boundary`. Local observations remain separated from unverified adoption and time savings.
+- Reuse these patterns when a real case is edited: one executive view first, technical detail next, and specific verified evidence last. Do not automatically convert private or company source evidence into public content.
+- Verify keyboard navigation, responsive layout, contrast and evidence wording before merging; a PR or merge is not proof of GitHub Pages deployment.
