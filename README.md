@@ -17,3 +17,11 @@ Static HTML, CSS, and a minimal script. GitHub Pages serves the main branch root
 
 ## Maintenance
 Update contact and project links only when needed. Prefer clear, durable descriptions over a recurring content-production obligation.
+
+
+## Visual case-study pattern (review candidate, November 2026)
+- `architecture-fitness.html` is a responsive, independent personal architecture case linked from the selected-work section.
+- Design: narrative problem → lifecycle diagram → tested-versus-unknown evidence cards → clearly hypothetical capacity visualization → tradeoffs and next verification.
+- Figures such as 7 hours avoided and 2.5 hours maintenance are **illustrative scenario inputs, not historical benefits, organizational ROI or observed savings**. They must not be reused as accomplishment metrics.
+- No screenshot exports, employer records, private information, external analytics, new build pipeline or recurring reporting were added.
+- Before publishing changes to the public portfolio, review factual claims, local test provenance, accessibility, mobile rendering and disclosure boundaries. The underlying private personal evidence remains in its authorized location.
