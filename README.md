@@ -38,3 +38,9 @@ The landing page now leads with revenue operations leadership intent and adds a 
 - The homepage leads with Revenue Operations leadership and five business capabilities; reference examples use business-challenge and proposed-decision language.
 - All technical reference cases remain labeled as independent examples, not proof of employer deployment, organizational adoption, or measured returns.
 - Private career records, current employment strategy, and internal source evidence remain private.
+
+## Director-level case: revenue lifecycle leadership (November 17, 2026)
+
+- `revenue-lifecycle-leadership.html` is an independently authored fictional reference scenario that illustrates decision sequencing, ownership, verification and resource tradeoffs.
+- It is linked from the first selected-work card and does not assert personal employer deployment, organizational adoption, management scope, or quantified impact.
+- The existing independently tested automation case remains separate and retains its maturity disclosures.
