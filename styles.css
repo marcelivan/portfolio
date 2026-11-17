@@ -8,3 +8,7 @@
 .director-topic p{color:var(--muted);font-size:14px}
 .director-topic .director-question{font-weight:650;color:var(--ink);margin-bottom:0}
 @media(max-width:700px){.director-grid{grid-template-columns:1fr}.director-topic{padding:20px}}
+
+/* Director-first leadership cards: preserve original responsive layout */
+.director-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.director-topic{min-width:0}
