@@ -44,3 +44,7 @@ The landing page now leads with revenue operations leadership intent and adds a 
 - `revenue-lifecycle-leadership.html` is an independently authored fictional reference scenario that illustrates decision sequencing, ownership, verification and resource tradeoffs.
 - It is linked from the first selected-work card and does not assert personal employer deployment, organizational adoption, management scope, or quantified impact.
 - The existing independently tested automation case remains separate and retains its maturity disclosures.
+
+## B(n) Architecture Atlas
+
+The public, mobile-first architecture overview is available at `https://marcelivan.github.io/portfolio/architecture.html`. It is an intentionally curated narrative, not a live view into private B(n) systems. Use the browser or phone share sheet to send the link. On supported phones, the page can be added to the home screen for an app-like entry point.
