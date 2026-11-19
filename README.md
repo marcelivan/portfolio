@@ -3,7 +3,7 @@
 Public professional portfolio at https://marcelivan.github.io/portfolio/
 
 ## Intent
-A concise, accessible front door for systems architecture, revenue operations, governed automation, integrations, and human-directed AI. This site is separate from private architecture and professional evidence repositories.
+A business-first front door for Revenue Operations leadership, cross-functional execution, operational performance, and systems transformation. Systems architecture remains the supporting differentiator. This site is separate from private architecture and professional evidence repositories.
 
 ## Evidence and disclosure boundary
 - Reference designs are original, generalized descriptions. They are **not** statements that an employer deployed, adopted, or achieved outcomes from these designs.
@@ -33,6 +33,21 @@ The case uses four existing semantic SVG icons inside a responsive connected lif
 
 ## Director-level Revenue Operations positioning
 The landing page now leads with revenue operations leadership intent and adds a reference-only GTM operating-model section. This is market positioning, not a claim of forecasting ownership, people-management scope, quota-setting history, or verified business impact. Do not replace approved experience text with inferred results. New evidence should flow through the existing career publication gates.
+
+## Public director-first positioning (November 17, 2026)
+- The homepage leads with Revenue Operations leadership and five business capabilities; reference examples use business-challenge and proposed-decision language.
+- All technical reference cases remain labeled as independent examples, not proof of employer deployment, organizational adoption, or measured returns.
+- Private career records, current employment strategy, and internal source evidence remain private.
+
+## Director-level case: revenue lifecycle leadership (November 17, 2026)
+
+- `revenue-lifecycle-leadership.html` is an independently authored fictional reference scenario that illustrates decision sequencing, ownership, verification and resource tradeoffs.
+- It is linked from the first selected-work card and does not assert personal employer deployment, organizational adoption, management scope, or quantified impact.
+- The existing independently tested automation case remains separate and retains its maturity disclosures.
+
+## B(n) Architecture Atlas
+
+The public, mobile-first architecture overview is available at `https://marcelivan.github.io/portfolio/architecture.html`. It is an intentionally curated narrative, not a live view into private B(n) systems. Use the browser or phone share sheet to send the link. On supported phones, the page can be added to the home screen for an app-like entry point.
 
 ## Reusable executive visual system (November 2026)
 - `visual-system.css` supplies responsive, semantic HTML-based flow panels and story steps, using the site's existing color tokens. No framework, dependency, tracker or image-only content was introduced.
