@@ -48,3 +48,10 @@ The landing page now leads with revenue operations leadership intent and adds a 
 ## B(n) Architecture Atlas
 
 The public, mobile-first architecture overview is available at `https://marcelivan.github.io/portfolio/architecture.html`. It is an intentionally curated narrative, not a live view into private B(n) systems. Use the browser or phone share sheet to send the link. On supported phones, the page can be added to the home screen for an app-like entry point.
+
+## Reusable executive visual system (November 2026)
+- `visual-system.css` supplies responsive, semantic HTML-based flow panels and story steps, using the site's existing color tokens. No framework, dependency, tracker or image-only content was introduced.
+- Homepage: `Business inputs → Revenue Operations Architecture → Unify / Automate / Govern / Measure`. Each tile is explicitly a reference capability, not a deployed or measured business result.
+- Independent case: `Problem → Architecture → Intended capability → Evidence boundary`. Local observations remain separated from unverified adoption and time savings.
+- Reuse these patterns when a real case is edited: one executive view first, technical detail next, and specific verified evidence last. Do not automatically convert private or company source evidence into public content.
+- Verify keyboard navigation, responsive layout, contrast and evidence wording before merging; a PR or merge is not proof of GitHub Pages deployment.
