@@ -26,3 +26,6 @@
 @media(max-width:800px){.story-flow{grid-template-columns:1fr;gap:26px}.story-node{flex-direction:row}.story-node:not(:last-child):after{top:auto;right:auto;left:34px;bottom:-18px;transform:rotate(135deg)}.flow-panel{padding:17px}.visual-feature{padding-top:48px;padding-bottom:48px}}
 @media(max-width:480px){.site-header nav{flex-wrap:wrap;gap:2px 12px}}
 @media(max-width:400px){.flow-tile{padding:16px 7px}.flow-tile strong{font-size:18px}.flow-tile p{font-size:12px}.flow-panel{border-radius:16px}}
+
+/* Icon-led evidence points and bounded execution diagrams. */
+.case-icon-list{list-style:none;padding:0;margin:24px 0;display:grid;gap:14px;max-width:68ch}.case-icon-list li{display:flex;gap:14px;align-items:flex-start}.case-icon-list strong{display:block}.case-icon-list p{margin:4px 0 0;color:var(--muted)}.ai-workers{grid-template-columns:repeat(3,minmax(0,1fr))}.case-exception{border:1px solid var(--line);border-left:4px solid var(--teal);padding:18px;text-align:left}.case-exception p{margin:4px 0 0}.visual-case .case-intro{max-width:68ch}.flow-panel .story-flow{margin:0;text-align:left}.flow-panel .story-node{padding:12px}.flow-panel .story-node h3{font-size:16px}@media(max-width:600px){.ai-workers{grid-template-columns:1fr}}

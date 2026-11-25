@@ -55,3 +55,6 @@ The public, mobile-first architecture overview is available at `https://marceliv
 - Independent case: `Problem → Architecture → Intended capability → Evidence boundary`. Local observations remain separated from unverified adoption and time savings.
 - Reuse these patterns when a real case is edited: one executive view first, technical detail next, and specific verified evidence last. Do not automatically convert private or company source evidence into public content.
 - Verify keyboard navigation, responsive layout, contrast and evidence wording before merging; a PR or merge is not proof of GitHub Pages deployment.
+
+## Human-readable case release checks
+Every substantive visual case uses the existing executive visual vocabulary: a first-glance problem/decision/execution/evidence story, meaningful icon-led points with adjacent text, a connected diagram when it explains relationships, takeaway headings, concise readable prose and explicit verified-versus-unknown evidence. Icons must not be the only carrier of meaning. Check the heading-only story, desktop and mobile rendering, keyboard navigation, zoom/reflow and contrast before release. No new visual framework or recurring review.
