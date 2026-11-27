@@ -60,3 +60,13 @@ The public, mobile-first architecture overview is available at `https://marceliv
 Every substantive visual case uses the existing executive visual vocabulary: a first-glance problem/decision/execution/evidence story, meaningful icon-led points with adjacent text, a connected diagram when it explains relationships, takeaway headings, concise readable prose and explicit verified-versus-unknown evidence. Icons must not be the only carrier of meaning. Check the heading-only story, desktop and mobile rendering, keyboard navigation, zoom/reflow and contrast before release. No new visual framework or recurring review.
 
 Use one primary connected explanatory visual when architecture is central. Choose transformation (illustrative or observed before / verified after), governance (normal path and exception branch), or decision architecture (inputs / decision / consequences). Do not force before-and-after where it repeats the story or implies an unmeasured baseline.
+
+
+## Interactive B(n) Architecture Atlas
+
+- `atlas/index.html` is a standalone, responsive, interactive public map of the curated B(n) architecture.
+- The explorer is linked from `architecture.html` and is served under `/portfolio/atlas/`.
+- The publication is independently authored. It does not copy the private architecture inventory or expose private repositories, personal records, credentials, operational telemetry or employer information.
+- Relationships are conceptual design relationships, not claims of deployed integration, adoption or measured outcomes.
+- The explorer uses inline HTML, CSS and JavaScript, native SVG, no external libraries, no telemetry and no external data calls.
+- Verify public-safe wording and visual behavior before merging changes.
